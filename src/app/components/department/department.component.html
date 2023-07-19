@@ -1,0 +1,8 @@
+<p>department works!</p>
+<form [formGroup]="ClientForm">
+    <label>Name</label>
+    <input value="name" type="text" formControlName="name"/>
+    <label>age</label>
+    <input value="age" type="number" formControlName="age"/>
+    <button type="submit" (click)="onSubmit()">submit</button>
+</form>
